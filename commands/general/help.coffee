@@ -18,7 +18,7 @@ class Help extends Command
 
       embed = new MessageEmbed()
         .setTitle("Help - #{cmd.name}")
-        .setColor("BROWN")
+        .setColor("ORANGE")
         .setAuthor(msg.author.tag, msg.author.displayAvatarURL({ size: 64 }))
         .setDescription([
           "**Description:** #{cmd.description}",
@@ -44,7 +44,7 @@ class Help extends Command
 
       embed = new MessageEmbed()
         .setTitle("Help - Commands")
-        .setColor("BROWN")
+        .setColor("ORANGE")
         .setAuthor(@client.user.tag, @client.user.displayAvatarURL({ size: 64 }))
         .setFooter("For more information about a command run #{@client.config.prefix}help <command>")
       
