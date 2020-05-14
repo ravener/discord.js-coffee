@@ -1,0 +1,5 @@
+{
+  "token": "Your Bot's Token.",
+  "owner": "Your Discord User ID. Will be used to restrict owner only commands to this ID.",
+  "prefix": "Bot's prefix. This is the default way for the boilerplate but you might want to change the code if you want to plug in a database."
+}
