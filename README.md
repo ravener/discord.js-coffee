@@ -11,7 +11,7 @@ The goal is to enjoy CoffeeScript. I knew about it before but never really used 
 ## Setup
 Clone the repository (you will need `git` installed)
 ```sh
-$ git clone https://github.com/pollen5/discord.js-coffee
+$ git clone https://github.com/ravener/discord.js-coffee
 $ cd discord.js-coffee
 ```
 Install Node.js v12+ if you haven't already then install dependencies:
